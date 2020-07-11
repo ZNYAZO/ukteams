@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "215709037670",
+    "firebase_url": "https://ecommerece-65581.firebaseio.com",
+    "project_id": "ecommerece-65581",
+    "storage_bucket": "ecommerece-65581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215709037670:android:b4dac7d16699a6f902e9a7",
+        "android_client_info": {
+          "package_name": "com.zenith.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215709037670-7jebvk405q3facqprun4g90t66nha0c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zenith.ecommerce",
+            "certificate_hash": "2d3817818b889b7fa31d58d4c6a5662efab247c5"
+          }
+        },
+        {
+          "client_id": "215709037670-ap46r7hlr7fbef7v901hfeer7budl8r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8X2BPq0cQ3rN1YZYFDpH7EwkJ0o7BLro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215709037670-ap46r7hlr7fbef7v901hfeer7budl8r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

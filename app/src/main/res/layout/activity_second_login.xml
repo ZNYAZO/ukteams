@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tan_background">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+        tools:context="com.ukteams.ecommerce.SecondLoginActivity">
+
+
+        <TextView
+            android:id="@+id/shop_entrance"
+            style="@style/CategoryStyle"
+            android:background="@color/background_main_app"
+            android:text="@string/shop_entrance" />
+
+        <requestFocus />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shop_entrance"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/player" />
+    </RelativeLayout>
+</ScrollView>

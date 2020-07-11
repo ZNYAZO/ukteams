@@ -1,0 +1,382 @@
+<resources>
+    <string name="app_name">UK Teams</string>
+
+
+    <!--   MainActivity-->
+    <!--    string for app slogan-->
+    <string name="app_slogan">Search, Choose and Buy</string>
+
+    <!--    main login button-->
+    <string name="main_login_button">Already have an account? Login</string>
+
+    <!--    create an account now button-->
+    <string name="create_account">Create an Account</string>
+
+    <!--    Seller login and Sign Up-->
+    <string name="seller_login_sign_up">Seller login and Sign Up Area</string>
+
+
+    <!--    LoginActivity-->
+    <!--    login phone number hint-->
+    <string name="login_phone_number_hint">Phone Number</string>
+
+    <!--    login password hint-->
+    <string name="login_password">Password</string>
+
+    <!--    remember me checkbox-->
+    <string name="remember_me_checkbox">Remember me</string>
+
+
+    <!--    forgot password link-->
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!--    login button-->
+    <string name="login_button">Login</string>
+
+    <!--    for admin text-->
+    <string name="admin_link">for Admin</string>
+
+    <!--    for non admin text-->
+    <string name="non_admin_link">for Non Admin</string>
+
+
+    <!--    RegisterActivity-->
+    <!--    register activity username input-->
+    <string name="register_username_input">Name</string>
+
+    <!--    register activity phone number input-->
+    <string name="register_phone_number_input">Phone Number</string>
+
+
+    <!--    register activity password input-->
+    <string name="register_password_input">Password</string>
+
+    <!--    create account button-->
+    <string name="create_account_button">Create Account</string>
+
+
+    <!--    AdminHomeActivity-->
+    <!--    slogan category-->
+    <string name="slogan_category">Add New Product </string>
+
+    <!--    welcome dear admin-->
+    <string name="welcome_dear_admin">Welcome Dear Admin </string>
+
+    <!--    Maintain Products from database button-->
+    <string name="maintain_btn"> <br>   Maintain Products \n </br>  <br> (edit - delete from the database) </br> </string>
+
+    <!--    check new orders from clients button-->
+    <string name="check_new_orders_btn"> <br>   Check new orders \n </br>  <br> (from clients) </br> </string>
+
+    <!--    Check New Orders-->
+    <string name="check_products_btn"> <br> Check and Approve \n </br>  <br> (Newly uploaded Products from sellers)  </br> </string>
+
+
+    <!--    Admin Logout button-->
+    <string name="admin_logout_btn">Logout</string>
+
+
+    <!--    SellerAddNewProductActivity-->
+    <!--    product name-->
+    <string name="product_name">Product Name</string>
+
+
+    <!--    Products Description-->
+    <string name="product_description">Product Description</string>
+
+    <!--    Products Price-->
+    <string name="product_price">Product Price</string>
+
+
+    <!--    Add Products Button-->
+    <string name="add_new_product_button">Add Product</string>
+
+
+    <!--    activity_home_drawer-->
+    <!--    nav cart-->
+    <string name="nav_cart">Cart</string>
+
+    <!--    nav_search-->
+    <string name="nav_search">Search</string>
+
+    <!--    nav_categories-->
+    <string name="nav_categories">Categories</string>
+
+    <!--    nav_settings-->
+    <string name="nav_settings">Settings</string>
+
+    <!--    nav_logout-->
+    <string name="nav_logout">Logout</string>
+    <string name="title_activity_seller_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--    HomeActivity-->
+    <!--    navigation drawer open-->
+    <string name="navigation_drawer_open">navigation drawer open</string>
+
+    <!--    navigation_drawer_close-->
+    <string name="navigation_drawer_close">navigation drawer close</string>
+
+
+    <!--    Bottom nav menu-->
+    <!--    title_add Product-->
+    <string name="title_add_product">Add Product</string>
+
+    <!--    title_logout-->
+    <string name="title_logout">Logout</string>
+
+
+    <!--    AdminMaintainProductsActivity-->
+    <!--    product name-->
+    <string name="admin_product_name">Product Name</string>
+
+    <!--    product price-->
+    <string name="admin_product_price">Product Price</string>
+
+    <!--    product description-->
+    <string name="admin_product_description">Product Description</string>
+
+    <!--    apply changes-->
+    <string name="admin_apply_changes">Apply Changes</string>
+
+    <!--    delete this product-->
+    <string name="admin_delete_this_product">Delete This Product</string>
+
+
+    <!--    AdminNewOrdersActivity-->
+    <!--    new orders-->
+    <string name="new_orders">Mew Orders</string>
+
+
+    <!--    AdminUserProductsActivity-->
+    <!--    products-->
+    <string name="products">Products</string>
+
+
+    <!--    CartActivity-->
+    <!--    total price -->
+    <string name="total_price">Total Price = </string>
+
+    <!--    Congratulations, your final order has been placed successfully. Soon it will be verified.-->
+    <string name="congratulations">Congratulations, your final order has been placed successfully. Soon it will be verified.</string>
+
+    <!--     next btn-->
+    <string name="next_btn">Next</string>
+
+
+    <!--    ConfirmFinalOrderActivity-->
+    <!--    Please write your Shipment Details-->
+    <string name="shipmet_details">Please write your Shipment Details</string>
+
+    <!--    your name-->
+    <string name="your_name_ConfirmFinalOrderActivity">Your Name</string>
+
+    <!--    your phone number-->
+    <string name="your_phone_number_ConfirmFinalOrderActivity">Your Phone Number</string>
+
+    <!--    your phone home address-->
+    <string name="your_home_address_ConfirmFinalOrderActivity">Your Home Address</string>
+
+    <!--    your phone city name-->
+    <string name="your_city_name_ConfirmFinalOrderActivity">Your City Name</string>
+
+    <!--    confirm btn-->
+    <string name="confirm_btn_ConfirmFinalOrderActivity">Confirm</string>
+
+
+    <!--    ProductDetailsActivity-->
+    <!--    product name-->
+    <string name="product_name_ProductDetailsActivity">Product Name</string>
+
+    <!--    product description-->
+    <string name="product_description_ProductDetailsActivity">Product Description</string>
+
+    <!--    product price-->
+    <string name="product_price_ProductDetailsActivity">Product Price</string>
+
+    <!--    add to cart btn-->
+    <string name="add_to_cart_btn_ProductDetailsActivity">Add to Cart</string>
+
+
+    <!--    ResetPasswordActivity-->
+    <!--    reset password-->
+    <string name="reset_Password_ResetPasswordActivity">Reset Password</string>
+
+    <!--    verify phone number-->
+    <string name="verify_phone_number_ResetPasswordActivity">Please write your phone number</string>
+
+    <!--    answer the following question-->
+    <string name="answer_the_question_ResetPasswordActivity">Answer the Following Security Questions</string>
+
+    <!--    role model-->
+    <string name="role_model_ResetPasswordActivity">Who is your role model?</string>
+
+    <!--    hero-->
+    <string name="who_is_your_hero_ResetPasswordActivity">Who is your favourite hero?</string>
+
+    <!--    verify btn-->
+    <string name="veriy_btn_ResetPasswordActivity">Verify</string>
+
+
+    <!--    SearchProductsActivity-->
+    <!--    product name-->
+    <string name="product_name_SearchProductsActivity">Search: Team name start with upper case eg: Manchester or Arsenal </string>
+
+    <!--    search-->
+    <string name="search_SearchProductsActivity">Search</string>
+
+
+    <!--    activity_seller_home-->
+    <!--    My All Products-->
+    <string name="my_all_products">My All Products</string>
+
+
+    <!--    SellerLoginActivity-->
+    <!--    Seller Login Form-->
+    <string name="seller_login_form_SellerLoginActivity">Seller login Form</string>
+
+    <!--    Seller email-->
+    <string name="seller_email_SellerLoginActivity">Email</string>
+
+    <!--    Seller password-->
+    <string name="seller_password_SellerLoginActivity">Password</string>
+
+    <!--    Seller login-->
+    <string name="seller_login_SellerLoginActivity">Login</string>
+
+
+    <!--    SellerRegistrationActivity-->
+    <!--    seller registration form-->
+    <string name="seller_registration_form_SellerRegistrationActivity">Seller Registration Form</string>
+
+    <!--    seller registration name-->
+    <string name="seller_registration_name_SellerRegistrationActivity">Name</string>
+
+    <!--    seller registration phone-->
+    <string name="seller_registration_phone_SellerRegistrationActivity">Phone</string>
+
+    <!--    seller registration email-->
+    <string name="seller_registration_email_SellerRegistrationActivity">Email</string>
+
+    <!--    seller registration password-->
+    <string name="seller_registration_password_SellerRegistrationActivity">Password</string>
+
+    <!--    seller registration address-->
+    <string name="seller_registration_address_SellerRegistrationActivity">Shop or Business Address</string>
+
+    <!--    seller registration register btn-->
+    <string name="seller_registration_btn_SellerRegistrationActivity">Register</string>
+
+    <!--    seller registration have an account btn-->
+    <string name="seller_registration_have_account_SellerRegistrationActivity">Already have an Account? - Login</string>
+
+
+    <!--    SettingsActivity-->
+    <!--    close-->
+    <string name="close_SettingsActivity">Close</string>
+
+    <!--    update-->
+    <string name="update_SettingsActivity">Update</string>
+
+    <!--    change profile-->
+    <string name="change_profile_SettingsActivity">Change Profile</string>
+
+    <!--    phone number-->
+    <string name="phone_SettingsActivity">Phone Number</string>
+
+    <!--    name-->
+    <string name="name_SettingsActivity">Full Name</string>
+
+    <!--    address-->
+    <string name="address_SettingsActivity">Address</string>
+
+    <!--    security questions-->
+    <string name="security_questions_SettingsActivity">Set Security Questions</string>
+
+
+    <!--    cart_items_layout.xml-->
+    <!--    product name-->
+    <string name="product_name_cart_items_layout">Product Name</string>
+
+    <!--    product quantity-->
+    <string name="product_quantity_cart_items_layout">Product Quantity</string>
+
+    <!--    product name-->
+    <string name="product_price_cart_items_layout">Product Price</string>
+
+
+    <!--    nav_header_home.xml-->
+    <!--    username-->
+    <string name="username_nav_header_home">User name</string>
+
+
+    <!--    orders_layout.xml-->
+    <!--    user name-->
+    <string name="username_orders_layout">UserName</string>
+
+    <!--    phone number-->
+    <string name="phone_number_orders_layout">Phone Number</string>
+
+    <!--    total price-->
+    <string name="total_price_orders_layout">Total Price</string>
+
+    <!--    address-->
+    <string name="address_orders_layout">Address, City</string>
+
+    <!--    date and time-->
+    <string name="date_time_orders_layout">Date Time</string>
+
+    <!--    show order-->
+    <string name="show_order_orders_layout">Show This Order of Products</string>
+
+
+    <!--    products_items_layout.xml-->
+    <!--    product name-->
+    <string name="product_name_products_items_layout">Product Name</string>
+
+    <!--    product price-->
+    <string name="product_price_products_items_layout">Product Price</string>
+
+    <!--    product description-->
+    <string name="product_description_products_items_layout">Product Description</string>
+
+
+    <!--    seller_item_view.xml-->
+    <!--    product name-->
+    <string name="product_name_seller_item_view">Product Name</string>
+
+    <!--    product status-->
+    <string name="product_status_seller_item_view">Product Status</string>
+
+    <!--    product price-->
+    <string name="product_price_seller_item_view">Product Price</string>
+
+    <!--    product description-->
+    <string name="product_description_seller_item_view">Product Description</string>
+
+
+
+    <!--    activity_first_login.xml-->
+    <!-- Category name for welcome screen [CHAR LIMIT=20] -->
+    <string name="login_activity_first_login">Welcome to login Screen</string>
+
+    <!-- Category name for Enter password button [CHAR LIMIT=20] -->
+    <string name="enter_password_activity_first_login">ENTER PASSWORD</string>
+
+    <!-- Category name hint on password field [CHAR LIMIT=20] -->
+    <string name="password_hint_activity_first_login">password....</string>
+
+
+
+    <!--    activity_second_login.xml-->
+    <!-- Resources for activity_main.xml-->
+    <!-- Category name Pastor's Notes [CHAR LIMIT=20] -->
+    <string name="shop_entrance">Click here to go to the Shop </string>
+
+
+</resources>
+
+

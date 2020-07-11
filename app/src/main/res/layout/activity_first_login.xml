@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tan_background">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+        tools:context="com.ukteams.ecommerce.FirstLoginActivity">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            style="@style/CategoryStyle"
+            android:background="@color/background_main_app"
+            android:text="@string/login_activity_first_login" />
+
+
+        <Button
+            android:id="@+id/submitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/welcome"
+            android:layout_gravity="right|center_horizontal"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:clickable="true"
+            android:scrollHorizontally="false"
+            android:hint="@string/enter_password_activity_first_login" />
+
+        <EditText
+            android:id="@+id/passwordedittext"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/welcome"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:gravity="left|center_horizontal|center"
+            android:hint="@string/password_hint_activity_first_login"
+            android:inputType="textPassword" />
+
+        <requestFocus />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/passwordedittext"
+            android:layout_marginTop="80dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/player" />
+    </RelativeLayout>
+</ScrollView>
+

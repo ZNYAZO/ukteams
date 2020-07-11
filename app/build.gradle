@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'// Apply the Crashlytics Gradle plugin from firebase
+apply plugin: 'com.google.firebase.firebase-perf' // Apply the Performance Monitoring plugin
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.0"
+
+    defaultConfig {
+        applicationId "com.ukteams.ecommerce"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 4
+        versionName "1.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            // Enables code shrinking, obfuscation, and optimization for only
+            // your project's release build type.
+            minifyEnabled true
+
+            // Enables resource shrinking, which is performed by the
+            // Android Gradle plugin.
+            shrinkResources true
+
+            // Includes the default ProGuard rules files that are packaged with
+            // the Android Gradle plugin. To learn more, go to the section about
+            // R8 configuration files.
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.drawerlayout:drawerlayout:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'androidx.navigation:navigation-ui:2.2.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.firebaseui:firebase-ui-database:3.2.2'
+    implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+
+    // Add the dependency for the Performance Monitoring library
+    implementation 'com.google.firebase:firebase-perf:19.0.7'
+
+
+    // Recommended: Add the Firebase SDK for Google Analytics.
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:17.1.0'
+
+  //  implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+
+
+    //for nice widgets eg checkbox, buttons, textfields etc
+    //https://github.com/rey5137/material
+    implementation 'com.github.rey5137:material:1.2.5'
+
+    //this dependency writes the login info and credentials on the Android device's memory of the user
+    //making the functions like remember me button to work correctly
+    //https://github.com/pilgr/Paper
+    implementation 'io.paperdb:paperdb:2.7.1'
+
+    //dependency for user profile pic avators
+    //https://github.com/hdodenhof/CircleImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+   // Picasso is an image library for Android. its used for image loading and processing.
+    // It simplifies the process of displaying images from external locations
+    //https://github.com/square/picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+   /* Android-Image-Cropper library:
+    Powerful (Zoom, Rotation, Multi-Source), customizable (Shape, Limits, Style), optimized (Async, Sampling,
+            Matrix) and simple image cropping library for Android.
+            https://github.com/ArthurHub/Android-Image-Cropper */
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+
+    //A simple Android library to implement a number counter with increment and decrement buttons.
+    //https://android-arsenal.com/details/1/4136
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+
+
+}
